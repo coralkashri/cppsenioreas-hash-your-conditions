@@ -1,3 +1,12 @@
+/**
+ * All examples are taken from C++ Senioreas blog
+ * https://cppsenioreas.wordpress.com/
+ *
+ * Examples from:
+ * cpp_senioreas::hash_your_conditions_cpp
+ * https://cppsenioreas.wordpress.com/SOON
+ */
+
 #include <iostream>
 #include <map>
 #include <string>
