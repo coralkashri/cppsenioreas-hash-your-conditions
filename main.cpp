@@ -4,7 +4,7 @@
  *
  * Examples from:
  * cpp_senioreas::hash_your_conditions_cpp
- * https://cppsenioreas.wordpress.com/SOON
+ * https://cppsenioreas.wordpress.com/2020/12/13/hash-your-conditions-cpp/
  */
 
 #include <iostream>
