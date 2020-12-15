@@ -47,7 +47,7 @@ public:
     }
 
 private:
-    std::map<std::string, std::function<std::shared_ptr<interface>()>> hash;
+    std::unordered_map<std::string, std::function<std::shared_ptr<interface>()>> hash;
 };
 
 std::shared_ptr<interface> core_function(std::string &&type, type_hash &deducer) {
@@ -100,7 +100,7 @@ public:
     }
 
 private:
-    std::map<std::string, void (functions_collection::*)()> hash;
+    std::unordered_map<std::string, void (functions_collection::*)()> hash;
 };
 
 void core_function(std::string &&type, type_hash &deducer) {
